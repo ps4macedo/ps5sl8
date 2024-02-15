@@ -1,5 +1,1 @@
-let my_worker = this;
-
-self.onmessage = function (event) {
-    event.ports[0].postMessage(1);
-}
+let my_worker=this;self.onmessage=function(a){a.ports[0].postMessage(1)};
